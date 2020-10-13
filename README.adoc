@@ -1,0 +1,17 @@
+Mailed-In-Time is a simple web application for delayed sending of e-mail messages.
+
+You will never forget to congratulate your friend with his Birthday! Just set a text and a subject, add an attachment
+and of course his e-mail address, and choose a day when he should receive the congratulation message.
+
+This project is a base for few educational projects of mine.
+
+The project should be published on Maven local repository as a library by executing the corresponding Gradle task.
+
+To make a working app it`s necessary to create a new project, add dependency to this project (as a library) and add some
+necessary classes:
+
+* main class (for example one with @SpringBootApplication),
+* implementation of PlannedMessageStorageService interface,
+* and so on.
+
+So anyone can use it this way for educational purposes adding Spring Security layer or Spring Data MongoDB, etc.
